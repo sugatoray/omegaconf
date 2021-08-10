@@ -1,0 +1,24 @@
+### repo-visualizer: creates a visualization of the entire repo
+# - try-out-online: https://octo-repo-visualization.vercel.app/?repo=omry%2Fomegaconf
+# - demo-app: https://github.com/githubocto/repo-visualizer-demo
+# - article: https://octo.github.com/projects/repo-visualization
+# - github-action-repo: https://github.com/githubocto/repo-visualizer
+
+name: Create repo visualization
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      #- main
+      - feature/repo-visualizer-action
+
+jobs:
+  get_data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+      - name: Update diagram
+        uses: githubocto/repo-visualizer@main
+        with:
+          excluded_paths: "ignore,.github"
