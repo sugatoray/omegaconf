@@ -31,3 +31,13 @@ Install with `pip install omegaconf==2.0.6`
 
 ## Live tutorial
 Run the live tutorial: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/omry/omegaconf/master?filepath=docs%2Fnotebook%2FTutorial.ipynb)
+
+## Visualize Repository
+
+**repo-visualizer**: creates a visualization of the entire repo
+- try-out-online: https://octo-repo-visualization.vercel.app/?repo=omry%2Fomegaconf
+- demo-app: https://github.com/githubocto/repo-visualizer-demo
+- article: https://octo.github.com/projects/repo-visualization
+- github-action-repo: https://github.com/githubocto/repo-visualizer
+
+![Visualization of the codebase](./diagram.svg)
