@@ -34,6 +34,8 @@ Run the live tutorial: [![Binder](https://mybinder.org/badge_logo.svg)](https://
 
 ## Visualize Repository
 
+[Open repo visualizer](https://octo-repo-visualization.vercel.app/?repo=omry%2Fomegaconf)
+
 **repo-visualizer**: creates a visualization of the entire repo
 - try-out-online: https://octo-repo-visualization.vercel.app/?repo=omry%2Fomegaconf
 - demo-app: https://github.com/githubocto/repo-visualizer-demo
